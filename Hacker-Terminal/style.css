@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    color:#00ff00;
+    font-family:Consolas, monospace;
+    overflow:hidden;
+}
+
+canvas{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+.terminal{
+    width:90%;
+    height:90vh;
+    margin:20px auto;
+    border:2px solid #00ff00;
+    background:rgba(0,0,0,.75);
+    box-shadow:0 0 25px #00ff00;
+    padding:20px;
+    overflow:auto;
+}
+
+h2{
+    color:#00ff00;
+    margin-bottom:15px;
+    text-shadow:0 0 10px #00ff00;
+}
+
+#output{
+    height:78%;
+    overflow-y:auto;
+    white-space:pre-line;
+}
+
+input{
+    width:100%;
+    background:black;
+    color:#00ff00;
+    border:none;
+    outline:none;
+    font-size:18px;
+    font-family:Consolas;
+}
